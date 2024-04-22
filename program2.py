@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = ''
+
 
 with open('input2.txt', 'r', encoding = 'utf-8') as f:
     training_data = f.read()
